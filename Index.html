@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!---required meta tags-->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rock Paper Scissor</title>
+      <link rel="icon" type="image/gif" href="https://i.postimg.cc/V6hzcqGq/t.png"/>
+      <!-- Bootstrap CSS-cdn and font awesome -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" type="text/css" href="style.css"/> 
+  </head>
+  <body>
+      <div class="bg-container">
+        <h1 class="heading">ROCK PAPER SCISSORS</h1>
+        <p class="para">Let's start the game..!!!</p>
+        <div class="main-container">
+          <div class="d-flex flex-column justify-content-center">
+            <img src="https://www.animatedimages.org/data/media/56/animated-computer-image-0078.gif" class="sysimage"/>
+            <p>System</p>
+          </div>
+          <div class=" system-container d-flex flex-column justify-content-center">
+            <i class="fa-solid fa-hand-back-fist fa-5x fa-rotate-90 pb-2" id="sysRock"></i>
+            <i class="fa-solid fa-hand fa-5x fa-rotate-90 pb-3 d-none" id="sysPaper"></i>
+            <i class="fa-solid fa-hand-scissors fa-5x pb-2 fa-rotate-180 d-none" id="sysSci"></i>
+          </div>
+          <div class=" user-container d-flex flex-column justify-content-center">
+            <i class="fa-solid fa-hand-back-fist fa-3x fa-rotate-270 pb-3" id="userRock"></i>
+            <i class="fa-solid fa-hand fa-3x fa-rotate-270 pb-3" id="userPaper"></i>
+            <i class="fa-solid fa-hand-scissors fa-3x pb-3" id="userSci"></i>
+          </div>
+          <div class="d-flex flex-column justify-content-center"> 
+            <img src="https://www.animatedimages.org/data/media/1433/animated-baby-looney-tunes-image-0020.gif" class="userimage"/>
+            <p class="pl-4">You</p>
+          </div>
+        </div>
+        <p class="result mt-3" id="paraEl"></p> 
+      </div>
+      <!-- JavaScript -->
+      <script src="script.js"></script>  
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+  </body>
+</html>

@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+.bg-container{
+    background-size: cover;
+    height:100vh;
+    background-color:rgb(182, 212, 255);
+    display: grid;
+    place-content:center;
+    
+}
+
+.heading{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top:5vh;
+    color:indigo;
+
+}
+
+.para{
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:500;
+    text-align: center;
+    color:indigo;
+}
+
+
+.sysimage{
+    height:80px;
+    width:60px;
+}
+
+.userimage{
+    height:80px;
+    width:80px;
+}
+
+.main-container{
+ display:flex;
+ align-items: center;
+ margin:30px;
+}
+
+.system-container{
+    background-color:transparent;
+    border-radius: 60px;
+    margin:20px;
+    height:28vh;
+    width:80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:grab;
+}
+
+
+.user-container{
+   background-color: transparent;
+   border-radius: 60px;
+   margin:20px;
+   height:28vh;
+   width:80px;;
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   cursor:grab;
+   
+}
+
+.button-el{
+    background-color:aliceblue ;
+    border-radius: 8px;
+    height:40px;
+    width:120px;
+    border-color:indigo;
+    color:indigo;
+}
+
+.result{
+    color:indigo;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
